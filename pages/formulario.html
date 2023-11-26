@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Sección Formulario</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <label for="nombre">Nombre:
+                <input type="text" name="nombre" id="nombre">
+            </label>
+            <hr>
+            <label for="email">
+                Mail: <input type="email" id="email">
+            </label>
+            <hr>
+            
+            <hr> 
+
+            <label for="password">Ingrese su contraseña:
+                <input type="password" id="password">
+            </label>
+            <hr>
+
+            <label for="phone"> Ingrese su n° de celular:
+                <input type="number" id="phone">
+            </label>
+            <hr>
+            
+            <label for="pais">País:
+                <select name="pais" id="pais">
+                    <option value="arg">Argentina</option>
+                    <option value="chi">Chile</option>
+                    <option value="per">Perú</option>
+                </select>
+            </label>
+            <hr>
+
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otros" name="genero" value="otros">
+            <label for="otros">Otros</label> 
+            
+            <hr>
+
+            <!-- Campo de opciones múltiples -->
+            <label>Intereses:</label>
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="deportes" name="intereses" value="deportes">
+            <label for="musica">Música</label>
+            <input type="checkbox" id="musica" value="musica" name="intereses">
+            <label for="mates">Tomar mates</label>
+            <input type="checkbox" id="mates" value="mates" name="intereses">
+
+            <hr>
+
+            <!-- Campo de comentarios -->
+            <label for="comentarios">Comentarios:</label>
+            <textarea placeholder="texto de ejemplo" name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+
+            <hr>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
